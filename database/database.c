@@ -11,8 +11,8 @@
 #define max 80
 #define port 8080
 
-void create_table(char table)
-void drop_table(char table)
+void create_table(char table);
+void drop_table(char table);
 
 int main()
 {
