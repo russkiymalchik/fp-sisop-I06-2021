@@ -24,14 +24,9 @@ int main()
     servaddr.sin_port = htons(port);
   
     sock = socket(AF_INET, SOCK_STREAM, 0);
-    if (sock == -1) 
-    {
+    if (sock == -1) {
         printf("socket creation failed...\n");
         exit(0);
-    }
-    else
-    {
-        printf("Socket successfully created..\n");
     }
   
 }
