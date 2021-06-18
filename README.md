@@ -4,7 +4,7 @@ I apologize for my inability to work on this final project. I already did my bes
 
 I hope you can accept my apology, mas
 
-Thank you.
+Thank you. -Khairi-
 
 
 
