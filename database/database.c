@@ -6,9 +6,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX 80
-#define PORT 8080
-#define SA struct sockaddr
+#define sa struct sockaddr
+
+#define max 80
+#define port 8080
 
 void create_table(char table)
 void drop_table(char table)
@@ -21,7 +22,7 @@ int main()
     
     servaddr.sin_family = AF_INET;
     servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
-    servaddr.sin_port = htons(PORT);
+    servaddr.sin_port = htons(port);
   
     sock = socket(AF_INET, SOCK_STREAM, 0);
     if (sock == -1) 
@@ -44,12 +45,10 @@ void create_table(char table)
 
 void drop_table(char table)
 {
-    if(remove(table) == 0)
-    {
+    if(remove(table) == 0){
         printf("The file is deleted successfully.");
     }
-    else
-    {
+    else{
         printf("The file is not deleted.");
     }
 }
