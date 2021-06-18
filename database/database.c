@@ -19,12 +19,10 @@ int main()
     int sock, connfd, len;
     struct sockaddr_in servaddr, cli;
     
-    //Assign IP, PORT
     servaddr.sin_family = AF_INET;
     servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
     servaddr.sin_port = htons(PORT);
   
-    //Socket create and verification
     sock = socket(AF_INET, SOCK_STREAM, 0);
     if (sock == -1) 
     {
@@ -38,14 +36,12 @@ int main()
   
 }
   
-//Function to create table
 void create_table(char table)
 {
     FILE *fp;
     fp = fopen(table);
 }
 
-//Function to drop table
 void drop_table(char table)
 {
     if(remove(table) == 0)
@@ -58,7 +54,6 @@ void drop_table(char table)
     }
 }
 
-//Function to chat between client and server
 void func(int sock)
 {
     
