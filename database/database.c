@@ -13,7 +13,6 @@
 
 void create_table(char table)
 void drop_table(char table)
-void func(int sock)
 
 int main()
 {
@@ -52,9 +51,3 @@ void drop_table(char table)
         printf("The file is not deleted.");
     }
 }
-
-void func(int sock)
-{
-    
-}
-  
