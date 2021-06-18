@@ -1,25 +1,15 @@
 # fp-sisop-I06-2021
 
-'Cause I'd surrender everything
+We apologize for our inability to work on this final project. We already did our best, but it is a hard moment for us to accept that we cannot do any significant work.
 
-To feel the chance to live again
-
-I reach to you
-
-I know you can feel it too
-
-We'd make it through
-
-A thousand dreams I still believe
-
-I'll make you give them all to me
-
-I'll hold you in my arms and never let go
-
-I surrender
+I hope you, can accept our apology, mas
+Thank you.
 
 
 
+.
 
 
--Celine Dion-
+.
+
+It's Okay to Not Be Okay:))
